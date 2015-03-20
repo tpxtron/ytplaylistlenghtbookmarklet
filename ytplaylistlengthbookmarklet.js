@@ -1,1 +1,1 @@
-var m=0;var s=0;var e=document.getElementsByClassName('timestamp');for(i=0;i<e.length;++i){var d=e[i].innerHTML.split(":");m+=parseInt(d[0]);s+=parseInt(d[1]);};var rm=Math.floor(s/60);var rs=s-(rm*60);m+=rm;alert("Laufzeit: " + m + ":" + rm + "min");
+javascript:var m=0;var s=0;var e=document.getElementsByClassName('timestamp');for(i=0;i<e.length;++i){var d=e[i].innerHTML.split(":");m+=parseInt(d[0]);s+=parseInt(d[1]);};var rm=Math.floor(s/60);var rs=s-(rm*60);m+=rm;alert("Laufzeit: " + m + ":" + rm + "min");
